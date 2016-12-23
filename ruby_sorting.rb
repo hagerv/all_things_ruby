@@ -20,7 +20,7 @@ end
 
 
 puts bubble_sort([8, 23, 4, 5, 7, 10, 1])
-
+=begin
 def bubble_sort_by(array)
 	a_length = array.length
 	puts "#{a_length}"
@@ -48,4 +48,5 @@ bubble_sort_by {|left, right| left.length-right.length}
 string_array = ["hi", "hello", "hey"]
 
 puts bubble_sort_by(string_array)
+=end
 
